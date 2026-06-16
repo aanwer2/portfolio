@@ -2,6 +2,7 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'
+import tempImage from './assets/tempImage.jpg'
 import './App.css'
 
 function App() {
@@ -9,6 +10,105 @@ function App() {
 
   return (
     <>
+      <section>
+        <nav className="navbar">
+          <ul>
+            <li><a href="home">Home</a></li>
+            <li><a href="projects">Projects</a></li>
+            <li><a href="Resume">Resume</a></li>
+          </ul>
+        </nav>
+      </section>
+      <section className="intro">
+        <h1>Welcome. I'm Aimun Anwer.</h1>
+        <h2>A UX/UI Designer and Front-end Developer.
+          <br />I love crafting engaging and efficient user experiences.</h2>
+        <div><img src={tempImage} alt="temporary image of a strawberry."/></div>
+      </section>
+      <section className="about">
+        <h1>About Me.</h1>
+        <div className="aboutText">
+            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. 
+              Quisque faucibus ex sapien vitae pellentesque sem placerat. 
+              In id cursus mi pretium tellus duis convallis. 
+              Tempus leo eu aenean sed diam urna tempor. 
+              <br />Pulvinar vivamus fringilla lacus nec metus bibendum egestas. 
+              Iaculis massa nisl malesuada lacinia integer nunc posuere. 
+              Ut hendrerit semper vel class aptent taciti sociosqu. 
+              Ad litora torquent per conubia nostra inceptos himenaeos.
+            </p>
+        </div>
+        <div className="aboutPics">
+          <div className="picOne"><img src={tempImage} alt="temporary image of a strawberry."/></div>
+          <div className="picTwo"><img src={tempImage} alt="temporary image of a strawberry."/></div>
+          <div className="picThree"><img src={tempImage} alt="temporary image of a strawberry."/></div>
+        </div>
+        <div className="aboutSkills">
+          <h2>Skills & Tools</h2>
+          <div className="tools">
+            <h3>Design/Development Tools:</h3>
+              <p>Figma, 
+              Git, Github, <br />
+              Jira, <br />
+              Android Studio, <br />
+              Visual Studio, <br />
+              IntelliJ, <br />
+              Adobe Illustrator, <br />
+              Adobe InDesign, <br />
+              Adobe Photoshop</p>
+          </div>
+          <div className="skills">
+            <h3>Technical Skills:</h3>
+              <p>React, <br />
+              Java, <br />
+              HTML, <br />
+              CSS, <br />
+              Javascript, Python, <br />
+              Kotlin, <br />
+              C, C#, SQL, R </p>
+          </div>
+          <div className="workflow">
+            <h3>WorkFlow:</h3>
+            <p>Agile/Scrum, <br />
+            Product Ownership, <br />
+            Client/Team Communication, <br />
+            UX Research</p>
+          </div>
+        </div>
+      </section>
+
+      <section className="featProjs">
+        <h1>Featured Projects.</h1>
+        <div>
+        <div className="projOne"><img src={tempImage} alt="temporary image of a strawberry."/></div>
+        <p>see more...</p>
+        </div>
+        <div>
+        <div className="projTwo"><img src={tempImage} alt="temporary image of a strawberry."/></div>
+        <p>see more...</p>
+        </div>
+        <div>
+        <div className="projThree"><img src={tempImage} alt="temporary image of a strawberry."/></div>
+        <p>see more...</p>
+        </div>
+      </section>
+
+      <section className="contact">
+        <h1>Contact.</h1>
+        <div className="gitHub">
+          <h2>aanwer2</h2>
+        </div>
+        <div className="location">
+          <h2>Chicago, IL</h2>
+        </div>
+        <div className="linkedIn">
+          <h2>www.linkedin.com/in/aimunanwer</h2>
+        </div>
+        <div className="webLink">
+          <h2>portfolio link</h2>
+        </div>
+      </section>
+     {/* 
       <section id="center">
         <div className="hero">
           <img src={heroImg} className="base" width="170" height="179" alt="" />
@@ -115,6 +215,7 @@ function App() {
 
       <div className="ticks"></div>
       <section id="spacer"></section>
+     */}
     </>
   )
 }

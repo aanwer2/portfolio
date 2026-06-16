@@ -1,3 +1,7 @@
+
+
+
+/*
 .counter {
   font-size: 16px;
   padding: 5px 10px;
@@ -134,7 +138,7 @@
       height: 18px;
       width: 18px;
     }
-  }
+  
 
   @media (max-width: 1024px) {
     margin-top: 20px;
@@ -181,4 +185,17 @@
     right: 0;
     border-right-color: var(--border);
   }
+}
+*/
+
+  /*General Content:
+-----------------------------------------*/
+
+  /*Typography:
+-----------------------------------------*/
+
+  /*Navigation:
+-----------------------------------------*/
+.navbar {
+  text-align: horizontal;
 }
