@@ -20,33 +20,51 @@ function App() {
         </nav>
       </section>
       <section className="intro">
-        <h1>Welcome. I'm Aimun Anwer.</h1>
-        <h2>A UX/UI Designer and Front-end Developer.
-          <br />I love crafting engaging and efficient user experiences.</h2>
-        <div><img src={tempImage} alt="temporary image of a strawberry."/></div>
+      <div className="introElements">
+        <div className="redRectangle1">
+        <h1 className="introH1">Welcome. <br />I'm Aimun Anwer.</h1>
+        <h2>I combine both design and development to create practical experiences that are intuitive for users.</h2>
+        </div>
+        <div className="orangeRectangle1"></div>
+        <div className="yellowRectangle1"></div>
+        <div className="profileContainer"><img classname="profilePic" src={tempImage} alt="temporary image of a strawberry."/></div>
+        </div>
       </section>
       <section className="about">
-        <h1>About Me.</h1>
+        <div className="h1Bullet">
+          <div className="rRect2"></div>
+          <div className="oRect2"></div>
+          <div className="yRect2"></div>
+         <h1 className = "h1About">About Me.</h1>
+        </div>
+        <div className="aboutContent">
         <div className="aboutText">
-            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. 
-              Quisque faucibus ex sapien vitae pellentesque sem placerat. 
-              In id cursus mi pretium tellus duis convallis. 
-              Tempus leo eu aenean sed diam urna tempor. 
-              <br />Pulvinar vivamus fringilla lacus nec metus bibendum egestas. 
-              Iaculis massa nisl malesuada lacinia integer nunc posuere. 
-              Ut hendrerit semper vel class aptent taciti sociosqu. 
-              Ad litora torquent per conubia nostra inceptos himenaeos.
+            <p>I’m a UX designer and a Computer Science graduate with a background 
+                in both graphic design and front-end development. <br /><br /><br />
+                From idea to research to prototype to code to testing and launch, I 
+                use my knowledge of the entire creation process to make products that are valuable and practical for users.
+                I’m looking for opportunities to grow as a UX designer, work with a team, and contribute my ideas and 
+                knowledge to a larger project in a way that benefits its user base.
             </p>
         </div>
         <div className="aboutPics">
-          <div className="picOne"><img src={tempImage} alt="temporary image of a strawberry."/></div>
-          <div className="picTwo"><img src={tempImage} alt="temporary image of a strawberry."/></div>
-          <div className="picThree"><img src={tempImage} alt="temporary image of a strawberry."/></div>
+          <div><img className="picOne" src={tempImage} alt="temporary image of a strawberry."/></div>
+          <div><img className="picTwo" src={tempImage} alt="temporary image of a strawberry."/></div>
+        </div>
+        </div>
+        <div className="skillsContainer">
+        <div className="h2Bullet">
+          <div className="oRect2"></div>
+          <div className="yRect2"></div>
+        <h2 className="skillToolHeader">Skills & Tools.</h2>
         </div>
         <div className="aboutSkills">
-          <h2>Skills & Tools</h2>
-          <div className="tools">
-            <h3>Design/Development Tools:</h3>
+          <div className="categories">
+            <div className="h3Bullet">
+              <div className="yRect3"></div>
+              <h3 className="h3Header">Design/Development Tools:</h3>
+            </div>
+            <div className="categoryText">
               <p>Figma, 
               Git, Github, <br />
               Jira, <br />
@@ -56,24 +74,36 @@ function App() {
               Adobe Illustrator, <br />
               Adobe InDesign, <br />
               Adobe Photoshop</p>
+              </div>
           </div>
-          <div className="skills">
-            <h3>Technical Skills:</h3>
-              <p>React, <br />
+          <div className="categories">
+            <div className="h3Bullet">
+              <div className="yRect3"></div>
+              <h3 className="h3Header">Technical Skills:</h3>
+            </div>   
+            <div className="categoryText">           
+            <p>React, <br />
               Java, <br />
               HTML, <br />
               CSS, <br />
               Javascript, Python, <br />
               Kotlin, <br />
               C, C#, SQL, R </p>
+              </div>
           </div>
-          <div className="workflow">
-            <h3>WorkFlow:</h3>
+          <div className="categories">
+            <div className="h3Bullet">
+              <div className="yRect3"></div>
+              <h3 className="h3Header">Workflow:</h3>
+            </div>            
+            <div className="categoryText">
             <p>Agile/Scrum, <br />
             Product Ownership, <br />
             Client/Team Communication, <br />
             UX Research</p>
+            </div>
           </div>
+        </div>
         </div>
       </section>
 

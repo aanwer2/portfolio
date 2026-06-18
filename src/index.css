@@ -111,5 +111,25 @@ code {
 }
   */
 body {
+  background-color: black;
+  
 }
 
+
+h1 {
+  font-family:'instrument sans', sans-serif;
+  font-weight: 600;
+  color:#FFFFFF;
+}
+h2 {
+  font-family: 'lekton', sans-serif;
+  line-height: 1.2;
+  color:#FFFFFF;
+}
+h3 {
+  color:#FFFFFF;
+}
+p {
+  color: #FFFFFF;
+  font-family: 'PT serif', serif;
+}
