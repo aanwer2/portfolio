@@ -342,8 +342,33 @@
   margin-left: 7%;
 }
 
+  /*Featured Projects:
+-----------------------------------------*/
+.featProjs{
+  margin-left: 7%;
+  margin-right: 7%;
+}
 
+.h1Projects{
+  margin-left: 1%;
+  margin-top: 3.5%;
+}
 
+.projects{
+  display: inline-flex;
+  margin-top: 2%;
+}
+
+.projImages{
+  width: 90%;
+}
+
+  /*Contact:
+-----------------------------------------*/
+.contact{
+  margin-left: 7%;
+  margin-right: 7%;
+}
 
   /*Navigation:
 -----------------------------------------*/
